@@ -226,7 +226,7 @@ body {
 }
 
 .main__img--container {
-  background-image: url("/images/woman-tech-1.jpg");
+  background-image: url("https://res.cloudinary.com/drpcjt13x/image/upload/v1632246088/Proyectos/TechiesGIRLS-website/woman-tech-1_wj2cyy.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -376,7 +376,7 @@ body {
       rgba(56, 56, 56, 0.4) 0%,
       rgba(56, 56, 56, 0.4) 100%
     ),
-    url("/images/bridges.jpg");
+    url("https://res.cloudinary.com/drpcjt13x/image/upload/v1632246417/Proyectos/TechiesGIRLS-website/bridges_yixhfy.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;

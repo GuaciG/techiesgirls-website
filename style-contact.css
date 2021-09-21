@@ -152,7 +152,7 @@ body {
       rgba(56, 56, 56, 0.4) 0%,
       rgba(56, 56, 56, 0.4) 100%
     ),
-    url("/images/contact-img3.jpg");
+    url("https://res.cloudinary.com/drpcjt13x/image/upload/v1632246784/Proyectos/TechiesGIRLS-website/contact-img3_kgyc7r.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
