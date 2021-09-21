@@ -298,7 +298,7 @@ body {
       rgba(0, 0, 0, 0) 0%,
       rgba(147, 147, 147, 0.2) 100%
     ),
-    url("/images/pic1.svg");
+    url("https://res.cloudinary.com/drpcjt13x/image/upload/v1632242427/Proyectos/TechiesGIRLS-website/pic1_tsyrmk.svg");
   background-size: contain;
   background-repeat: no-repeat;
   position: relative;
@@ -311,7 +311,7 @@ body {
       rgba(0, 0, 0, 0) 0%,
       rgba(147, 147, 147, 0.2) 100%
     ),
-    url("/images/pic2.svg");
+    url("https://res.cloudinary.com/drpcjt13x/image/upload/v1632242427/Proyectos/TechiesGIRLS-website/pic2_dgldln.svg");
 }
 
 .modules__card:nth-child(3) {
@@ -320,7 +320,7 @@ body {
       rgba(0, 0, 0, 0) 0%,
       rgba(147, 147, 147, 0.2) 100%
     ),
-    url("/images/pic3.svg");
+    url("https://res.cloudinary.com/drpcjt13x/image/upload/v1632242427/Proyectos/TechiesGIRLS-website/pic3_f2edlx.svg");
 }
 
 .modules__card:nth-child(4) {
@@ -329,7 +329,7 @@ body {
       rgba(0, 0, 0, 0) 0%,
       rgba(147, 147, 147, 0.2) 100%
     ),
-    url("/images/pic4.svg");
+    url("https://res.cloudinary.com/drpcjt13x/image/upload/v1632242427/Proyectos/TechiesGIRLS-website/pic4_nwlvjo.svg");
 }
 
 .modules__card:nth-child(5) {
@@ -338,7 +338,7 @@ body {
       rgba(0, 0, 0, 0) 0%,
       rgba(147, 147, 147, 0.2) 100%
     ),
-    url("/images/pic5.svg");
+    url("https://res.cloudinary.com/drpcjt13x/image/upload/v1632242427/Proyectos/TechiesGIRLS-website/pic5_xmotux.svg");
 }
 
 .modules__card:nth-child(6) {
@@ -347,7 +347,7 @@ body {
       rgba(0, 0, 0, 0) 0%,
       rgba(147, 147, 147, 0.2) 100%
     ),
-    url("/images/pic6.svg");
+    url("https://res.cloudinary.com/drpcjt13x/image/upload/v1632242427/Proyectos/TechiesGIRLS-website/pic6_zfh5ol.svg");
 }
 
 .modules__card h3 {
