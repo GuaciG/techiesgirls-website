@@ -112,6 +112,7 @@ body {
   align-items: center;
   padding: 0 1rem;
   width: 100%;
+  cursor: pointer;
 }
 
 .button {
@@ -411,6 +412,7 @@ body {
   color: #fff;
   text-decoration: none;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .banner__more:hover {
@@ -476,6 +478,7 @@ body {
   color: #fff;
   text-decoration: none;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .link__btn:hover {
@@ -535,6 +538,7 @@ body {
   color: #fff;
   text-decoration: none;
   margin-bottom: 0.5rem;
+  cursor: pointer;
 }
 
 .footer__link--items a:hover {
@@ -584,6 +588,7 @@ body {
 .social__icon--link {
   color: #fff;
   font-size: 24px;
+  cursor: pointer;
 }
 
 .website__rights {
