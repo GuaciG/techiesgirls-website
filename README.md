@@ -11,7 +11,7 @@ The purpose of this project was to create a responsive website with several page
 It was created with HTML, CSS and javaScript and it's my first website project as a multiple page.
 
 
-![TechiesGIRLS Website]( "TechiesGIRLS Website")
+![TechiesGIRLS Website](https://res.cloudinary.com/drpcjt13x/image/upload/v1632308449/Proyectos/TechiesGIRLS-website/TechiesGIRLS-Home_vrgopn.jpg "TechiesGIRLS Website")
 
 
 You can take a look at this project in [github](https://guacig.github.io/techiesgirls-website/)
