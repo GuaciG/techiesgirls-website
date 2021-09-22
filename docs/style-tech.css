@@ -591,6 +591,10 @@ body {
   cursor: pointer;
 }
 
+.social__icons a:hover {
+  color: #f58800;
+}
+
 .website__rights {
   color: #fff;
   font-size: 11px;

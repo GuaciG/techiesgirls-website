@@ -115,10 +115,6 @@ body {
   cursor: pointer;
 }
 
-.navbar__btn a {
-  cursor: pointer;
-}
-
 .button {
   display: flex;
   justify-content: center;
@@ -732,7 +728,7 @@ body {
   color: #fff;
   text-decoration: none;
   margin-bottom: 0.5rem;
-  cursor: pointer !important;
+  cursor: pointer;
 }
 
 .footer__link--items a:hover {
@@ -785,11 +781,7 @@ body {
   cursor: pointer;
 }
 
-.social__icon--link a {
-  cursor: pointer;
-}
-
-.social__icon--link a:hover {
+.social__icons a:hover {
   color: #f58800;
 }
 
