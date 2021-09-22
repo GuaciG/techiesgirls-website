@@ -11,24 +11,26 @@ The purpose of this project was to create a responsive website with several page
 It was created with HTML, CSS and javaScript and it was my first website project as a multiple page.
 
 
-See here a desktop preview:
+**See here a desktop preview:**
 
 ![TechiesGIRLS Website](https://res.cloudinary.com/drpcjt13x/image/upload/v1632308449/Proyectos/TechiesGIRLS-website/TechiesGIRLS-Home_vrgopn.jpg "TechiesGIRLS Website")
 
 
 
-Tablet devices preview:
+**Tablet devices preview:**
 
 ![TechiesGIRLS Website](https://res.cloudinary.com/drpcjt13x/image/upload/v1632308456/Proyectos/TechiesGIRLS-website/TechiesGIRLS-iPad_ys0ghj.jpg "TechiesGIRLS Website")
 
 
 
-Mobile devices preview:
+**Mobile devices preview:**
 
 ![TechiesGIRLS Website](https://res.cloudinary.com/drpcjt13x/image/upload/v1632308461/Proyectos/TechiesGIRLS-website/TechiesGIRLS-iPhone_yddpor.jpg "TechiesGIRLS Website")
 
 
 
+## Links:
 You can take a look at this project in [github](https://guacig.github.io/techiesgirls-website/)
+
 
 Feedback issues etc. are more than welcome! Thanks!
