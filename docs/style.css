@@ -534,6 +534,7 @@ body {
   text-decoration: none;
   font-size: 1rem;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .trial__container a:hover {
@@ -786,6 +787,10 @@ body {
 
 .social__icon--link a {
   cursor: pointer;
+}
+
+.social__icon--link a:hover {
+  color: #f58800;
 }
 
 .website__rights {
