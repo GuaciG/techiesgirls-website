@@ -444,7 +444,7 @@ iframe {
 }
 
 /* Tablet Responsive  */
-@media screen and (max-width: 802px) {
+@media screen and (max-width: 810px) {
   .navbar__container {
     padding: 0;
   }
@@ -630,6 +630,10 @@ iframe {
   .navbar__container #navbar__logo {
     margin-left: 25px;
     font-size: 1.6rem;
+  }
+
+  .navbar__btn {
+    padding-top: 1.5rem;
   }
 
   /*  Hero section  */
