@@ -192,7 +192,7 @@ body {
   outline: none;
 }
 
-.main__btn a {
+.main__btn span {
   position: relative;
   z-index: 2;
   color: #fff;
@@ -724,14 +724,14 @@ body {
   color: #fff;
 }
 
-.footer__link--items a {
+.footer__link--items p {
   color: #fff;
   text-decoration: none;
   margin-bottom: 0.5rem;
   cursor: pointer;
 }
 
-.footer__link--items a:hover {
+.footer__link--items p:hover {
   color: #f58800;
   text-decoration: underline;
   transition: 0.3s ease-out;
@@ -775,13 +775,13 @@ body {
   width: 240px;
 }
 
-.social__icon--link {
+.social__icons i {
   color: #fff;
   font-size: 24px;
   cursor: pointer;
 }
 
-.social__icons a:hover {
+.social__icons i:hover {
   color: #f58800;
 }
 
