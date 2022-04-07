@@ -1,179 +1,267 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TechiesGIRLS-Technology</title>
-  <link rel="stylesheet" href="style-tech.css">
-  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"> 
-  <script src="https://kit.fontawesome.com/2e918371a2.js"></script>
-  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-</head>
-<body>
-  <!-- Navbar section -->
-  <nav class="navbar">
-    <div class="navbar__container">
-      <a href="https://guacig.github.io/techiesgirls-website" id="navbar__logo"><i class="fas fa-code-branch"></i>TechiesGIRLS</a>
-      <div class="navbar__toggle" id="mobile-menu">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </div>
-      <ul class="navbar__menu">
-        <li class="navbar__item">
-          <a href="https://guacig.github.io/techiesgirls-website/index.html" class="navbar__links">Home</a>
-        </li>
-        <li class="navbar__item">
-          <a href="https://guacig.github.io/techiesgirls-website/tech.html" class="navbar__links active">Tech</a>
-        </li>
-        <li class="navbar__item">
-          <a href="https://guacig.github.io/techiesgirls-website/about.html" class="navbar__links">About</a>
-        </li>
-        <li class="navbar__item">
-          <a href="https://guacig.github.io/techiesgirls-website/contact.html" class="navbar__links">Contact</a>
-        </li>
-        <li class="navbar__btn">
-          <a class="button"><i class="far fa-user-circle"></i>Sign up</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <!-- Hero Section -->
-  <div class="main">
-    <div class="main__container">
-      <div class="main__content">
-        <h1>SEE THE WORLD THROUGH TECHNOLOGY</h1>
-        <h3>Be part of the movement</h3>
-        <button class="main__btn"><span>Get Started</span></button>
-      </div>
-      <div class="main__img--container"></div>
-    </div>
-  </div>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>TechiesGIRLS-Technology</title>
+		<link rel="stylesheet" href="style-tech.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="https://kit.fontawesome.com/2e918371a2.js"></script>
+		<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+			integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+	</head>
+	<body>
+		<!-- Navbar section -->
+		<nav class="navbar">
+			<div class="navbar__container">
+				<a
+					href="https://guacig.github.io/techiesgirls-website"
+					id="navbar__logo"
+					><i class="fas fa-code-branch"></i>TechiesGIRLS</a
+				>
+				<div class="navbar__toggle" id="mobile-menu">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</div>
+				<ul class="navbar__menu">
+					<li class="navbar__item">
+						<a
+							href="https://guacig.github.io/techiesgirls-website/index.html"
+							class="navbar__links"
+							>Home</a
+						>
+					</li>
+					<li class="navbar__item">
+						<a
+							href="https://guacig.github.io/techiesgirls-website/tech.html"
+							class="navbar__links active"
+							>Tech</a
+						>
+					</li>
+					<li class="navbar__item">
+						<a
+							href="https://guacig.github.io/techiesgirls-website/about.html"
+							class="navbar__links"
+							>About</a
+						>
+					</li>
+					<li class="navbar__item">
+						<a
+							href="https://guacig.github.io/techiesgirls-website/contact.html"
+							class="navbar__links"
+							>Contact</a
+						>
+					</li>
+					<li class="navbar__btn">
+						<a class="button"><i class="far fa-user-circle"></i>Sign up</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<!-- Hero Section -->
+		<div class="main">
+			<div class="main__container">
+				<div class="main__content">
+					<h1>SEE THE WORLD THROUGH TECHNOLOGY</h1>
+					<h3>Be part of the movement</h3>
+					<button class="main__btn"><span>Get Started</span></button>
+				</div>
+				<div class="main__img--container"></div>
+			</div>
+		</div>
 
-  <!-- BUTTON SCROLL TO TOP -->
-  <button onclick="topFunction()" id="myBtnScr" title="Go to top"><i class="fas fa-chevron-circle-up"></i></button> 
-  
-  <!-- Technology Section-->
-  <div class="technology">
-    <div class="technology__container">
-      <h2>We turn knowledge into value</h2>
-      <p lang="zxx">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint similique obcaecati odit ipsa saepe voluptatum iusto illum suscipit maxime totam aperiam explicabo et ipsam corporis, eum, minus reprehenderit nisi nihil! Sint similique obcaecati odit ipsa saepe voluptatum iusto illum suscipit maxime totam aperiam explicabo et ipsam corporis.</p>
-      <div class="technology__image">
-        <img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1632246133/Proyectos/TechiesGIRLS-website/women-engineers_p1cvtm.jpg" alt="women-engineers">
-      </div>
-      <div class="tech__container">
-        <h3>Sharing with you our experience</h3>
-        <div class="tech__container--wrap">
-          <div class="tech--text">
-            <h4>Follow the path</h4>
-            <p lang="zxx">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, dignissimos inventore! Consequuntur voluptatum itaque soluta dicta cupiditate, eius fuga. Velit consequuntur cupiditate possimus dolorum fuga expedita natus omnis impedit alias! Tempore, dignissimos inventore! Consequuntur voluptatum itaque soluta dicta cupiditate, eius fuga. </p>
-          </div>
-          <div class="tech--img">
-            <img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1632246171/Proyectos/TechiesGIRLS-website/virtual-reality-1_vpyh4q.jpg" alt="woman using google glass">
-          </div>
-          <div class="reverse">
-            <div class="tech--img">
-              <img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1632246190/Proyectos/TechiesGIRLS-website/woman-engineer_awmvba.jpg" alt="woman engineer working">
-            </div>
-            <div class="tech--text">
-              <h4>Follow the path</h4>
-              <p lang="zxx">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, dignissimos inventore! Consequuntur voluptatum itaque soluta dicta cupiditate, eius fuga. Velit consequuntur cupiditate possimus dolorum fuga expedita natus omnis impedit alias! Tempore, dignissimos inventore! Consequuntur voluptatum itaque soluta dicta cupiditate, eius fuga. </p>
-            </div>
-          </div>
-          <div class="tech--text">
-            <h4>Follow the path</h4>
-            <p lang="zxx">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, dignissimos inventore! Consequuntur voluptatum itaque soluta dicta cupiditate, eius fuga. Velit consequuntur cupiditate possimus dolorum fuga expedita natus omnis impedit alias! Tempore, dignissimos inventore! Consequuntur voluptatum itaque soluta dicta cupiditate, eius fuga. </p>
-          </div>
-          <div class="tech--img">
-            <img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1632246218/Proyectos/TechiesGIRLS-website/young-engineering-1_zd9pdp.jpg" alt="young women visiting technology company">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Banner Section-->
-  <div class="banner">
-    <div class="banner__logo"><i class="far fa-comments"></i></div>
-    <div class="banner__slogan">
-      <h2>Let’s success</h2>
-      <p>hundreds successful students, hundreds unique collaborations </p>
-    </div>
-    <a class="banner__more">Learn more</a>
-  </div>
-  <!-- About Section-->
-  <div class="us">
-    <div class="us__container">
-      <p lang="zxx">Lorem ipsum dolor sit.</p>
-      <p lang="zxx">Lorem ipsum dolor sit amet consectetur.</p>
-      <p lang="zxx">Lorem ipsum dolor sit amet consectetur adipisicing elit itaque soluta dicta.</p>
-      <p lang="zxx">Lorem ipsum dolor sit amet.</p>
-      <p lang="zxx">Lorem ipsum.</p>
-      <div class="us__container--links">
-        <a href="https://guacig.github.io/techiesgirls-website" id="link__logo"><i class="fas fa-code-branch"></i>TechiesGIRLS</a> 
-        <a href="https://guacig.github.io/techiesgirls-website/about.html" class="link__btn">ABOUT US</a>
-      </div>
-    </div>
-  </div>
+		<!-- BUTTON SCROLL TO TOP -->
+		<button onclick="topFunction()" id="myBtnScr" title="Go to top">
+			<i class="fas fa-chevron-circle-up"></i>
+		</button>
 
-  <!-- Footer Section-->
-  <div class="footer__container">
-    <div class="footer__links">
-      <div class="footer__link--wrapper">
-        <div class="footer__link--items">
-          <h2>About Us</h2>
-          <p>How it works</p>
-          <p>Testimonials</p>
-          <p>Careers</p>
-          <p>Investments</p>
-          <p>Terms of Service</p>
-        </div>
-        <div class="footer__link--items">
-          <h2>Contact Us</h2>
-          <p>Contact</p>
-          <p>Support</p>
-          <p>Collaboration</p>
-          <p>Destinations</p>
-          <p>Sponsorships</p>
-        </div>
-      </div>
-      <div class="footer__link--wrapper">
-        <div class="footer__link--items">
-          <h2>Videos</h2>
-          <p>Submit Video</p>
-          <p>Ambassadors</p>
-          <p>Agency</p>
-          <p>Influencer</p>
-          <p>Blog</p>
-        </div>
-        <div class="footer__link--items">
-          <h2>Product</h2>
-          <p>Features</p>
-          <p>Pricing</p>
-          <p>Login</p>
-          <p>Sign Up</p>
-          <p>Packages</p>
-        </div>
-      </div>
-    </div>
-    <div class="social__media">
-      <div class="social__media--wrap">
-        <div class="footer__logo">
-          <a href="https://guacig.github.io/techiesgirls-website" id="footer__logo"><i class="fas fa-code-branch"></i>TechiesGIRLS</a>
-        </div>
-        <p class="website__rights"><span>&copy;</span> TechiesGIRLS 2021. All rights reverved</p>
-        <div class="social__icons">
-          <i class="fab fa-facebook"></i>
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-twitter"></i>
-          <i class="fab fa-linkedin"></i>
-          <i class="fab fa-youtube"></i>
-        </div>
-      </div>
-    </div>
-  </div>
+		<!-- Technology Section-->
+		<div class="technology">
+			<div class="technology__container">
+				<h2>We turn knowledge into value</h2>
+				<p lang="zxx">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+					similique obcaecati odit ipsa saepe voluptatum iusto illum suscipit
+					maxime totam aperiam explicabo et ipsam corporis, eum, minus
+					reprehenderit nisi nihil! Sint similique obcaecati odit ipsa saepe
+					voluptatum iusto illum suscipit maxime totam aperiam explicabo et
+					ipsam corporis.
+				</p>
+				<div class="technology__image">
+					<img
+						src="https://res.cloudinary.com/drpcjt13x/image/upload/v1632246133/Proyectos/TechiesGIRLS-website/women-engineers_p1cvtm.jpg"
+						alt="women-engineers"
+					/>
+				</div>
+				<div class="tech__container">
+					<h3>Sharing with you our experience</h3>
+					<div class="tech__container--wrap">
+						<div class="tech--text">
+							<h4>Follow the path</h4>
+							<p lang="zxx">
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+								Tempore, dignissimos inventore! Consequuntur voluptatum itaque
+								soluta dicta cupiditate, eius fuga. Velit consequuntur
+								cupiditate possimus dolorum fuga expedita natus omnis impedit
+								alias! Tempore, dignissimos inventore! Consequuntur voluptatum
+								itaque soluta dicta cupiditate, eius fuga.
+							</p>
+						</div>
+						<div class="tech--img">
+							<img
+								src="https://res.cloudinary.com/drpcjt13x/image/upload/v1632246171/Proyectos/TechiesGIRLS-website/virtual-reality-1_vpyh4q.jpg"
+								alt="woman using google glass"
+							/>
+						</div>
+						<div class="reverse">
+							<div class="tech--img">
+								<img
+									src="https://res.cloudinary.com/drpcjt13x/image/upload/v1632246190/Proyectos/TechiesGIRLS-website/woman-engineer_awmvba.jpg"
+									alt="woman engineer working"
+								/>
+							</div>
+							<div class="tech--text">
+								<h4>Follow the path</h4>
+								<p lang="zxx">
+									Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+									Tempore, dignissimos inventore! Consequuntur voluptatum itaque
+									soluta dicta cupiditate, eius fuga. Velit consequuntur
+									cupiditate possimus dolorum fuga expedita natus omnis impedit
+									alias! Tempore, dignissimos inventore! Consequuntur voluptatum
+									itaque soluta dicta cupiditate, eius fuga.
+								</p>
+							</div>
+						</div>
+						<div class="tech--text">
+							<h4>Follow the path</h4>
+							<p lang="zxx">
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+								Tempore, dignissimos inventore! Consequuntur voluptatum itaque
+								soluta dicta cupiditate, eius fuga. Velit consequuntur
+								cupiditate possimus dolorum fuga expedita natus omnis impedit
+								alias! Tempore, dignissimos inventore! Consequuntur voluptatum
+								itaque soluta dicta cupiditate, eius fuga.
+							</p>
+						</div>
+						<div class="tech--img">
+							<img
+								src="https://res.cloudinary.com/drpcjt13x/image/upload/v1632246218/Proyectos/TechiesGIRLS-website/young-engineering-1_zd9pdp.jpg"
+								alt="young women visiting technology company"
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Banner Section-->
+		<div class="banner">
+			<div class="banner__logo"><i class="far fa-comments"></i></div>
+			<div class="banner__slogan">
+				<h2>Let’s success</h2>
+				<p>hundreds successful students, hundreds unique collaborations</p>
+			</div>
+			<a class="banner__more">Learn more</a>
+		</div>
+		<!-- About Section-->
+		<div class="us">
+			<div class="us__container">
+				<p lang="zxx">Lorem ipsum dolor sit.</p>
+				<p lang="zxx">Lorem ipsum dolor sit amet consectetur.</p>
+				<p lang="zxx">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit itaque soluta
+					dicta.
+				</p>
+				<p lang="zxx">Lorem ipsum dolor sit amet.</p>
+				<p lang="zxx">Lorem ipsum.</p>
+				<div class="us__container--links">
+					<a
+						href="https://guacig.github.io/techiesgirls-website"
+						id="link__logo"
+						><i class="fas fa-code-branch"></i>TechiesGIRLS</a
+					>
+					<a
+						href="https://guacig.github.io/techiesgirls-website/about.html"
+						class="link__btn"
+						>ABOUT US</a
+					>
+				</div>
+			</div>
+		</div>
 
-  <script src="app.js"></script>
-</body>
+		<!-- Footer Section-->
+		<div class="footer__container">
+			<div class="footer__links">
+				<div class="footer__link--wrapper">
+					<div class="footer__link--items">
+						<h2>About Us</h2>
+						<p>How it works</p>
+						<p>Testimonials</p>
+						<p>Careers</p>
+						<p>Investments</p>
+						<p>Terms of Service</p>
+					</div>
+					<div class="footer__link--items">
+						<h2>Contact Us</h2>
+						<p>Contact</p>
+						<p>Support</p>
+						<p>Collaboration</p>
+						<p>Destinations</p>
+						<p>Sponsorships</p>
+					</div>
+				</div>
+				<div class="footer__link--wrapper">
+					<div class="footer__link--items">
+						<h2>Videos</h2>
+						<p>Submit Video</p>
+						<p>Ambassadors</p>
+						<p>Agency</p>
+						<p>Influencer</p>
+						<p>Blog</p>
+					</div>
+					<div class="footer__link--items">
+						<h2>Product</h2>
+						<p>Features</p>
+						<p>Pricing</p>
+						<p>Login</p>
+						<p>Sign Up</p>
+						<p>Packages</p>
+					</div>
+				</div>
+			</div>
+			<div class="social__media">
+				<div class="social__media--wrap">
+					<div class="footer__logo">
+						<a
+							href="https://guacig.github.io/techiesgirls-website"
+							id="footer__logo"
+							><i class="fas fa-code-branch"></i>TechiesGIRLS</a
+						>
+					</div>
+					<p class="website__rights">
+						<span>&copy;</span> 2021 Guaci Gutiérrez &bull;
+						<a href="https://guacig.github.io/" target="_blank">Portfolio</a>
+					</p>
+					<div class="social__icons">
+						<i class="fab fa-facebook"></i>
+						<i class="fab fa-instagram"></i>
+						<i class="fab fa-twitter"></i>
+						<i class="fab fa-linkedin"></i>
+						<i class="fab fa-youtube"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="app.js"></script>
+	</body>
 </html>
